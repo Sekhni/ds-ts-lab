@@ -85,3 +85,4 @@ function findFriends(fs: Friend[], criterion: (f: Friend) => boolean) {
 console.log(findFriends(friends, (friend) => friend.name.startsWith("Pa")));
 console.log(findFriends(friends, (friend) => friend.age < 35));
 // console.log(colleagues.current[0]);
+
